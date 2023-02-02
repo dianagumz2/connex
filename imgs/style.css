@@ -1,0 +1,53 @@
+.header-top{
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+line-height: 18px;
+font-size: 13px;
+-webkit-font-smoothing: antialiased;
+font-family: "Poppins", Arial, Helvetica, sans-serif;
+color: #000;
+box-sizing: inherit;
+border-style: none;
+vertical-align: middle;
+max-width: 100%;
+height: auto;
+max-height: 100px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  
+  form.search button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  
+  form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
